@@ -149,10 +149,13 @@ def perform(input: String): Try[...] = {
 Вызов этого метода из Java будет неотличим от throws аннотации в Java-методах.
 
 ### Для Scala есть наконец плагин для компилятора, который реализует checked exceptions:
+
 [No Exceptions: Checked Exceptions for Scala](https://opensource.plausible.coop/src/projects/SNX/repos/nx/browse)
+
 ----
 
 Источники:
+
 http://java.dzone.com/articles/tragedy-checked-exceptions
 http://radio-weblogs.com/0122027/stories/2003/04/01/JavasCheckedExceptionsWereAMistake.html
 http://stackoverflow.com/questions/10818427/is-either-the-equivalent-to-checked-exceptions
